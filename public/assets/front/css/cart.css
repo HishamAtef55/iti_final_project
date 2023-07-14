@@ -1,0 +1,45 @@
+body{
+    color: black;
+}
+#cartButton,#paytButton{
+    position: fixed;
+    bottom: 2%;
+    left: 40%;
+    width: 20%;
+    height: 8%;
+    z-index: 2;
+    background-color:#08749b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    transition: all 0.5s;
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+#cartButton:hover,#paytButton:hover {
+    box-sizing: border-box;
+    background-color: white;
+    border: 0.25rem #08749b solid;
+    color:#08749b;
+}
+#quantityDiv{
+    display: flex;
+    justify-content: center;
+}
+#quantityParagraph{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#decermentButton,#incermentButton{
+    background-color: #08749b;
+}
+
+input[type="checkbox"]{
+    width: 2rem;
+    height: 2rem;
+}
